@@ -1,3 +1,17 @@
+## Requirement
+As a payment service provider, I want to be able to process payments quickly and securely, so that customers can complete transactions without any issues.
+
+Acceptance Criteria:
+
+- The payment service should be able to receive payment requests from other services in the system through a REST API.
+- When a payment request is received, the payment service should validate the request and ensure that it includes all necessary information, such as the order ID and payment amount.
+- The payment service should process the payment using a secure payment gateway or API.
+- If the payment is successful, the payment service should send a message to the "order-created" Kafka topic to indicate that the payment has been processed.
+- If the payment fails, the payment service should send a message to the "payment-failed" Kafka topic to indicate that the payment has failed, along with the reason for the failure.
+- The payment service should be able to handle high volumes of payment requests and process them quickly and efficiently.
+- The payment service should maintain a high level of security to protect sensitive payment information, such as credit card numbers or bank account information.
+- The payment service should provide detailed logs and analytics to help diagnose and troubleshoot any issues that may arise during payment processing.
+
 ## Micronaut 3.9.1 Documentation
 
 - [User Guide](https://docs.micronaut.io/3.9.1/guide/index.html)
