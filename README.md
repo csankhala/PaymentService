@@ -1,3 +1,4 @@
+This service repo is part of below project: https://github.com/csankhala/ecommerce-micronaut-kafka
 ## Requirement
 As a payment service provider, I want to be able to process payments quickly and securely, so that customers can complete transactions without any issues.
 
@@ -67,5 +68,3 @@ Acceptance Criteria:
 ## Feature micronaut-aop documentation
 
 - [Micronaut Aspect-Oriented Programming (AOP) documentation](https://docs.micronaut.io/latest/guide/index.html#aop)
-
-
